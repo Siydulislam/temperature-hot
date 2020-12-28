@@ -9,13 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <style>
-        body {
-            background: url(images/bg-image.jpg) no-repeat;
-            background-size: cover;
-            height: 100vh;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -28,13 +22,19 @@
                 </div>
             </div>
         </form>
-        <div class="weather-status text-white text-center">
+        <div class="text-white text-center">
             <img id="icon" src="" alt="">
             <h1 id="show-city">Dhaka</h1>
+        </div>
+        <div class="text-white text-center">
             <h3><span id="show-temperature">38.06</span>&deg;C</h3>
+            <h3><span id="show-humidity">75</span>%</h3>
             <h1 id="weather-status"class="lead">Clouds</h1>
         </div>
     </div>
+    <footer class="footer text-center text-white">
+        <p> Powered by <b>Openweathermap</b></p>
+    </footer>
 
     <script src="app.js"></script>
 </body>

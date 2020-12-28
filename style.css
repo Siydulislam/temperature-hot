@@ -1,0 +1,10 @@
+body {
+    background: url(images/bg-image.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.footer{
+    margin-top: 200px;
+    padding: 5px;
+}
